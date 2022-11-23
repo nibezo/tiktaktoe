@@ -1,0 +1,58 @@
+* {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.turn {
+  font-size: 2.8125rem;
+}
+
+.main {
+  display: grid;
+  gap: 0.0625rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main {
+  height: 28.125rem;
+  width: 28.125rem;
+}
+
+button {
+  background-color: rgb(139, 139, 139);
+  color: white;
+  font-size: 6rem;
+  line-height: 0;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.clear {
+  margin-top: 0.625rem;
+  height: 6.25rem;
+  font-size: 3rem;
+}
+
+.history {
+  font-size: 3rem;
+}
+
+div > div {
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+@media screen and (max-width: 680px) {
+  * {
+    font-size: 11px;
+  }
+}
